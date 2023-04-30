@@ -21,7 +21,7 @@ def get_requirement(file_path :str)-> List[str]:
 
 
 setup(
-    name="regressor_project",
+    name="Diamond price prediction",
     version="v1.0.0",
     author="shahabas",
     author_email="mohdshahabasm@gmail.com",
