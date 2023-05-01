@@ -45,14 +45,6 @@ class Dataingestion:
             logging.info("Exception occured at data ingestion method")
             raise CustomException(e,sys)
         
-# running this file:
-if __name__=="__main__":
-    obj=Dataingestion()
-    train_data_path,test_data_path=obj.initiate_data_ingestion()
-    data_tansformation=Datatransformation()
-    train_arr,test_arr,object_path=data_tansformation.initiate_data_transformation(train_data_path,test_data_path)
-
-
 
 
 
